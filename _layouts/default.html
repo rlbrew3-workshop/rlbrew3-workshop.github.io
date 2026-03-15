@@ -12,28 +12,29 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-
-  <div class="container" id="header">
-
-    <div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <div class="container" id="header">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div> <!-- navbar-header -->
 
-    <div class="collapse navbar-collapse" id="navbar-main">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-link"><a href="/index.html">About</a></li>
-      </ul>
-
-    </div> <!-- navbar-main -->
-
-  </div> 
-
-</nav> <!-- navbar -->
-
-<body>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-link"><a href="/index.html">About</a></li>
+          <li class="nav-item dropdown nav-link">
+            <a class="dropdown-toggle" href="#" id="previousEditionsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Previous Editions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="previousEditionsMenu">
+              <a class="dropdown-item" href="https://rlbrew2-workshop.github.io/" target="_blank" rel="noopener noreferrer">RLC 2025</a>
+              <a class="dropdown-item" href="https://rlbrew-workshop.github.io/" target="_blank" rel="noopener noreferrer">RLC 2024</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="container" id="content">
 
