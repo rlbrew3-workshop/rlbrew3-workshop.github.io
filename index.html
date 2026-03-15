@@ -1,26 +1,43 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RLBRew RLC 2026</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Fraunces:opsz,wght@9..144,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <main class="hero" aria-label="Workshop landing page">
-      <h1>
-        Workshop on Reinforcement Learning Beyond Rewards: Ingredients for
-        Developing Generalist Agents
-      </h1>
-      <p class="meta">Reinforcement Learning Conference (RLC) 2026</p>
-      <p class="meta">August 15, 2026</p>
-      <p class="meta social">@RLBRew_RLC · #RLBRew_RLC</p>
-    </main>
-  </body>
-</html>
+---
+layout: default
+---
+
+<figure>
+    <center><img src="main_figure.png" style="width:65%"; /></center>
+    <!-- <figcaption style='text-align: center'><small>Source: <a href="https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html">Google AI Blog </a></small></figcaption> -->
+</figure>  
+
+<div class="row">
+
+<p>
+	Reinforcement Learning (RL) has traditionally focused on maximizing rewards. However, intelligent agents often rely on reward-free interactions and diverse environmental signals to form abstractions that facilitate rapid adaptation. Recent RL research has begun leveraging reward-free transitions—available through exploratory interactions or expert datasets—to increase decision-making efficiency and task specification. However, unlike in vision or language modeling, RL still lacks scalable methods for learning generalizable representations from unlabeled data. Additionally, difficulties in specifying reward functions have led researchers toward alternative signals, such as human demonstrations, preferences, and implicit feedback. This workshop seeks to advance beyond traditional reward-centric RL by exploring methods like intrinsic motivation, skill discovery, predictive and contrastive representation learning, and leveraging human-centric signals. Building upon recent progress, including foundational models employing scalable alternative signals, the workshop aims to bridge theoretical insights and practical applications, fostering collaborations toward creating more versatile, adaptive decision-making agents.
+</p>
+
+
+
+
+</div>
+
+<!-- <p>
+Submission site: <a href="">  </a>
+The submission deadline is October 2, 2022 (Anywhere on Earth) <strike> September 30, 2022 </strike> . Please refer to the <a href="https://offline-rl-neurips.github.io/2022/submit.html"> submission </a> page for more details.	
+</p> -->
+	
+<center>
+<div style="text-align: center;">
+<div id="organizers" class="row">
+<h2 style="text-align: center;">Organizers</h2>
+<div class="break"></div>
+<div style="text-align: center;">
+{%- for person in site.data.organizers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div></div>
+</center>
+
+<p> To contact the organizers, please send an email to <a href="mailto:rlbrew2-workshop@gmail.com">rlbrew2.workshop@gmail.com</a> or @ us on X/Twitter at @RLBRew_RLC<p>
