@@ -22,15 +22,15 @@
   image: https://idurugkar.github.io/images/idurugkar.jpg
   title: Sony AI
   url: https://idurugkar.github.io/
-- name: Amy Zhang
-  image: https://amyzhang.github.io/images/profile.png
-  title: UT Austin
-  url: https://amyzhang.github.io/
-- name: Caleb Chuck
-  image: https://calcharles.github.io/images/CalebChuckMugShot.JPG
-  title: Synthefy Inc.
-  url: https://calcharles.github.io/
 - name: Adriana E. Hugessen
   image: https://ahugs.github.io/assets/img/prof_pic.jpg?7c1796234f390597f6c9d59dcd42d7e4
   title: University of Montreal/Mila
   url: https://ahugs.github.io/
+- name: Caleb Chuck
+  image: https://calcharles.github.io/images/CalebChuckMugShot.JPG
+  title: Synthefy Inc.
+  url: https://calcharles.github.io/
+- name: Amy Zhang
+  image: https://amyzhang.github.io/images/profile.png
+  title: UT Austin
+  url: https://amyzhang.github.io/

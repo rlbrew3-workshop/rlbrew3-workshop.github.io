@@ -177,28 +177,47 @@ table .time {
 }
 
 .person {
-  display: inline-block;
-  max-width: 9em;
-  vertical-align: top;
-  margin: 0 2em 1em 0em;
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto 1em;
   text-align: center;
-  line-height: 1em;
+  line-height: 1.2em;
+}
 
-  & > img {
-    width: 100%;
-    border-radius: .2em;
+.person > img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 0.2em;
+}
+
+.person > a {
+  display: inline-block;
+  padding: 0.3em 0.5em 0.2em;
+}
+
+.person > span {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+.organizers-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem 1rem;
+  justify-items: center;
+}
+
+@media (max-width: 900px) {
+  .organizers-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
 
-  & > a {
-    display: inline-block;
-    padding: .3em 0.5em .2em;
-    margin: 0 -1em;
-  }
-
-  & > span {
-    display: inline-block;
-    font-size: 0.8em;
-    margin: 0 -1em;
+@media (max-width: 600px) {
+  .organizers-grid {
+    grid-template-columns: 1fr;
   }
 }
 
