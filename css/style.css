@@ -224,3 +224,12 @@ table .time {
 .reviewer {
   margin-bottom: 0.5em;
 }
+
+/* Previous Editions dropdown tuning */
+#previousEditionsMenu + .dropdown-menu {
+  min-width: 8.5rem;
+}
+
+#previousEditionsMenu + .dropdown-menu .dropdown-item {
+  padding-left: 1.2rem;
+}
