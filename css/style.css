@@ -116,6 +116,24 @@ table {
   padding-bottom: 60px;
 }
 
+#schedule {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule th:first-child,
+#schedule td:first-child {
+  padding-right: 2.5rem;
+  white-space: nowrap;
+}
+
+#schedule th,
+#schedule td {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
 .slp {
   background: #fff;
   padding: 10px;
@@ -212,6 +230,10 @@ table .time {
 @media (max-width: 900px) {
   .organizers-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #schedule {
+    width: 100%;
   }
 }
 
