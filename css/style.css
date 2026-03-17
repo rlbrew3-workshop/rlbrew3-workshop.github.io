@@ -124,7 +124,7 @@ table {
 
 #schedule th:first-child,
 #schedule td:first-child {
-  width: 300px;
+  width: 250px;
   padding-right: 2.5rem;
   white-space: nowrap;
 }
