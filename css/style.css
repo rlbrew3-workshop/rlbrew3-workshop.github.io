@@ -238,6 +238,12 @@ table .time {
   justify-items: center;
 }
 
+#speakers .speakers-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  width: 100% !important;
+}
+
 @media (max-width: 900px) {
   .organizers-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -245,6 +251,10 @@ table .time {
 
   .speakers-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #speakers .speakers-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 
   #schedule {
@@ -259,6 +269,10 @@ table .time {
 
   .speakers-grid {
     grid-template-columns: 1fr;
+  }
+
+  #speakers .speakers-grid {
+    grid-template-columns: 1fr !important;
   }
 }
 
