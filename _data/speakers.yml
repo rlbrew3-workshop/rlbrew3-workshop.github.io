@@ -1,24 +1,32 @@
-- name: Chelsea Finn
-  image: https://ai.stanford.edu/~cbfinn/_files/sail_headshot_left_facing_crop.jpg
-  title: Stanford University, Pi 
-  url: https://ai.stanford.edu/~cbfinn/
-- name: George Konidaris
-  image: https://cs.brown.edu/people/gdk/images/gdk-photo3.jpg
-  title: Brown University
-  url: https://cs.brown.edu/people/gdk/
-- name: Giorgia Ramponi
-  image: https://gioramponi.github.io/images/gionew.jpeg
-  title: University of Zurich
-  url: https://gioramponi.github.io
-- name: Michael Dennis
-  image: https://www.michaeldennis.ai/images/profile.jpeg
-  title: Google DeepMind 
-  url: https://www.michaeldennis.ai
-- name: Ahmed Touati
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D4LT5xAAAAAJ&citpid=3
-  title: Meta AI 
-  url: https://scholar.google.com/citations?user=D4LT5xAAAAAJ&hl=en
-- name: Furong Huang
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=13yyuCcAAAAJ&citpid=12
-  title: University of Maryland 
-  url: https://furong-huang.com
+- name: Andre Barreto
+  image: https://lh3.googleusercontent.com/sitesv/APaQ0SSEpSwJr5T9NdwXOxM4WYX2K5UpgKkRsuyXHUqEfyljLET8Mwf4NfRzw4qO1_dixFlh4a8CXh9u18PXtuf3MKnSO1fUvG8Tecq8gdWuFPNqw00vhJGcScewrzxzvodstRoBtwhVU9_UH5f_6gY4wjHWEkkERi2CcztvZBXWb4gtUAMdKkMs3Ky6cUIUvmicxpHrhtLrn3O57TwPybBr_ENL90RiwUVn9O0FNig=w1280
+  title: Deepmind
+  url: https://sites.google.com/view/andrebarreto
+- name: Natasha Jaques (tentative)
+  image: https://natashajaques.ai/author/natasha-jaques/avatar_hu04b955ed351a495cc2c1096ede1d3b28_762133_270x270_fill_q75_lanczos_center.jpg
+  title: University of Washington, Google Deepmind
+  url: https://natashajaques.ai/
+- name: Sherry Yang (tentative)
+  image: https://sherryy.github.io/imgs/sherry.jpeg
+  title: New York University, US
+  url: https://sherryy.github.io/
+- name: Ben Eysenbach (tentative)
+  image: https://ben-eysenbach.github.io/assets/img/headshot_small.jpg
+  title: Princeton University, US
+  url: https://ben-eysenbach.github.io/
+- name: Rishabh Agarwal (tentative)
+  image: https://agarwl.github.io/images/rishabh_profile.jpg
+  title: Periodic Labs
+  url: https://agarwl.github.io/
+- name: Adam Jelley (tentative)
+  image: https://adamjelley.github.io/authors/admin/avatar_huc29dbd124a6be3d32d87dedd5b04ea66_12069845_270x270_fill_lanczos_center_3.png
+  title: General Intuition 
+  url: https://adamjelley.github.io/
+- name: Wen Sun (tentative)
+  image: https://wensun.github.io/images/wensun_new_1.png
+  title: Cornell University
+  url: https://wensun.github.io/
+- name: Khimya Khetarpal  (tentative)
+  image: https://kkhetarpal.github.io/images/KhimyaKhetarpal_circle.png
+  title: Google Deepmind, MILA
+  url: https://kkhetarpal.github.io/

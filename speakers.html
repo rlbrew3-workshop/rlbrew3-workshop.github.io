@@ -20,11 +20,10 @@ layout: default
 {%- for person in site.data.speakers -%}
 <div class="person">
   <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
-   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <a href="{{ person.url }}">{{ person.name }}</a> <div style="height:4px;"></div>
    <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
 </div>
 {%- endfor -%}
 </div>
 </div></div>
 </center>
-
