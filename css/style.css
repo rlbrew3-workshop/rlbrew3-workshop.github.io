@@ -233,7 +233,7 @@ table .time {
   flex: 0 0 100%;
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
   gap: 1.5rem 1rem;
   justify-items: center;
 }
